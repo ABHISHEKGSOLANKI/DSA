@@ -1,8 +1,6 @@
 package org.leetcode.arrays.easy;
 
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 public class RemoveDuplicates {
     public static void main(String[] args) {
@@ -23,7 +21,7 @@ public class RemoveDuplicates {
         System.out.println(removeDuplicatesResult);
     }
     public int removeDuplicates(int[] nums) {
-        Set<Integer> set = new HashSet<>();
+        Set<Integer> set = new LinkedHashSet<>();
         for (int i = 0; i < nums.length; i++) {
             set.add(nums[i]);
         }
@@ -32,6 +30,7 @@ public class RemoveDuplicates {
             nums[index] = num;
             index++;
         }
+        System.out.println(Arrays.toString(nums));
         return set.size();
     }
 }
