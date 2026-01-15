@@ -1,6 +1,6 @@
 package org.example;
 
-import org.leetcode.arrays.easy.TwoSum;
+import org.leetcode.arrays.day1.TwoSum;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package org.leetcode.arrays.easy;
+package org.leetcode.arrays.day1;
 
 import java.util.Arrays;
 import java.util.Scanner;

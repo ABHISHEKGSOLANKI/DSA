@@ -1,4 +1,4 @@
-package org.leetcode.arrays.easy;
+package org.leetcode.arrays.day1;
 
 public class MaximumSubarrayKadaneAlgorithm {
     public static void main(String[] args) {

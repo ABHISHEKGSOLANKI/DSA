@@ -1,6 +1,4 @@
-package org.leetcode.arrays.easy;
-
-import java.util.Scanner;
+package org.leetcode.arrays.day1;
 
 public class BestTimeToBuyAndSellStock {
 
